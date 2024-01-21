@@ -34,9 +34,8 @@ phases:
     runtime-versions:
       nodejs: 18
     commands:
-      - npm install -g typescript
-      - npm install -g @nestjs/cli
-      - npm install
+      - npm i -g typescript
+      - npm i -g @nestjs/cli
 #    finally:
 #      - command
 #      - command
@@ -55,6 +54,7 @@ phases:
 #    run-as: Linux-user-name
 #    on-failure: ABORT | CONTINUE
     commands:
+      - npm install
       - npm run build
 #    finally:
 #      - command
