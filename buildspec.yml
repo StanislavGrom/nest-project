@@ -8,11 +8,11 @@ phases:
       - npm i -g yarn
       - npm i -g typescript
       - npm i -g @nestjs/cli
-  build:
-    commands:
       - yarn
       - yarn build
       - ls -la
+  build:
+    commands:
   post_build:
     commands:
       - yarn test
