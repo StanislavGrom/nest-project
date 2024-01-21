@@ -55,7 +55,6 @@ phases:
 #    run-as: Linux-user-name
 #    on-failure: ABORT | CONTINUE
     commands:
-      - rimraf dist
       - yarn
       - yarn build
 #    finally:
