@@ -57,6 +57,7 @@ phases:
     commands:
       - yarn
       - yarn build
+      - ls -la
 #    finally:
 #      - command
 #      - command
