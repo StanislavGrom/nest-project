@@ -55,7 +55,6 @@ phases:
 #    on-failure: ABORT | CONTINUE
     commands:
       - npm install
-      - npm run prebuild
       - npm run build
 #    finally:
 #      - command
