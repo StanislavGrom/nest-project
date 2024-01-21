@@ -36,6 +36,7 @@ phases:
     commands:
       - npm install -g typescript
       - npm install -g @nestjs/cli
+      - npm install
 #    finally:
 #      - command
 #      - command
@@ -54,7 +55,6 @@ phases:
 #    run-as: Linux-user-name
 #    on-failure: ABORT | CONTINUE
     commands:
-      - npm install
       - npm run build
 #    finally:
 #      - command
