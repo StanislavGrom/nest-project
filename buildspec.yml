@@ -81,7 +81,6 @@ phases:
 artifacts:
   files:
     - '**/*'
-    - 'node_modules'
 #  name: artifact-name
 #  discard-paths: no | yes
 #  base-directory: location
